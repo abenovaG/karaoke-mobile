@@ -470,10 +470,10 @@ p {
     }
     .arrow {
         width: 10px;
-        height: 12px;
+        height: 15px;
     }
     .newTrack {
-        margin-left: 7px;
+        margin-left: 5px;
     }
     .newTrack p {
         font-size: 6px;
