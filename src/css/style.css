@@ -1,0 +1,520 @@
+.container {
+    width: 700px;
+    margin: 100px auto 0;
+    @media only screen and (max-width: 390px) {
+        width: 360px;
+        margin-top: 50px;
+    }
+}
+.arrow {
+    width: 36px;
+    height: 56px;
+    @media (max-width: 390px) {
+        width: 20px;
+        height: 15px;
+        margin-top: 7px;
+    }
+}
+.searchPart {
+    display: flex;
+    gap: 60px;
+    @media (max-width: 390px) {
+        gap: 12px;
+    }
+}
+.inputWrapper {
+    position: relative;
+}
+.input {
+    width: 310px;
+    height: 50px;
+    padding: 0 0 0 25px ;
+    font-size: 17px;
+    border-radius: 16px;
+    border: 0.61px solid #E4E3E4;
+    background-color: #F4F4F4;
+
+    @media only screen and (max-width: 390px) {
+        width: 224px;
+        height: 28px;
+        font-size: 9px;
+        padding-left: 15px;
+        border-radius: 10px;
+    }
+}
+.input::placeholder {
+    color: #9B9B9B;
+}
+.searchIcon {
+    position: absolute;
+    top: 44%;
+    transform: translateY(-50%);
+    right: -3px;
+    width: 25px;
+    height: 25px;
+    margin-right: 17px;
+    @media (max-width: 390px) {
+        width: 11px;
+        height: 11px;
+        top: 50%;
+    }
+}
+.newTrack {
+    margin-left: 40px;
+    display: flex;
+    gap: 1px;
+    @media (max-width: 390px) {
+        margin-left: 10px;
+        gap: 2px;
+    }
+}
+p {
+    font-family: Gotham Pro;
+    font-size: 22px;
+    font-weight: 400;
+    color: #B17E64;
+    margin-top: 11px;
+    @media (max-width: 390px) {
+        font-size: 8px;
+    }
+}
+.trackIcon {
+    width: 44px;
+    height: 11px;
+    margin-top: 21px;
+    @media (max-width: 390px) {
+        width: 10px;
+        height: 5px;
+        margin-top: 14px
+    }
+}
+.pagesPart {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    @media (max-width: 390px) {
+        margin-top: 15px;
+    }
+}
+.text {
+    font-family: Gotham Pro;
+    font-size: 24px;
+    font-weight: 400;
+    color: #B6B6B6;
+    cursor: pointer;
+    @media (max-width: 390px) {
+        font-size: 10px;
+        cursor: pointer;
+    }
+}
+.text:hover {
+    color: #B17E64;
+}
+.line {
+    width: 700px;
+    border: 0.5px solid #EDEDED;
+    @media (max-width: 390px) {
+        width: 390px;
+    }
+}
+
+
+
+
+/*list css*/
+
+
+
+/*.container {*/
+/*    width: 700px;*/
+/*    margin: 15px auto 0;*/
+/*    !*@media only screen and (max-width: 992px){*!*/
+/*    !*   padding: 0 50px 0 50px;*!*/
+/*    !*}*!*/
+/*    @media (max-width: 390px) {*/
+/*        width: 360px;*/
+/*        margin-top: 5px;*/
+/*    }*/
+/*}*/
+.wrapperList {
+    display: flex;
+    justify-content: space-between;
+}
+.wrapperAu {
+    margin-top: 13px;
+    margin-bottom: -13px;
+}
+.song {
+    font-family: Gotham Pro;
+    font-size: 26px;
+    font-weight: 400;
+    color: #3B3092;
+    @media only screen and (max-width: 390px) {
+        font-size: 12px;
+    }
+}
+.singer {
+    font-family: Gotham Pro;
+    font-size: 23px;
+    font-weight: 400;
+    color: #1C274C;
+    margin-top: -20px;
+    @media only screen and (max-width: 390px) {
+        font-size: 10px;
+        margin-top: -10px;
+    }
+}
+.icons {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    @media (max-width: 390px) {
+        margin-top: 20px;
+        gap: 10px;
+    }
+}
+.iconList {
+    width: 30px;
+    height: 30px;
+    @media (max-width: 390px) {
+        width: 17px;
+        height: 17px;
+    }
+}
+
+
+
+/*footer css*/
+
+
+/*.container {*/
+/*    width: 700px;*/
+/*    margin: 50px auto 0;*/
+/*    !*@media only screen and (max-width: 992px){*!*/
+/*    !*    margin: 40px 50px 0;*!*/
+/*    !*}*!*/
+/*    @media only screen and (max-width: 390px) {*/
+/*        width: 360px;*/
+/*        margin-top: 25px;*/
+/*    }*/
+/*}*/
+.lineFooter {
+    margin-top: 40px;
+    width: 700px;
+    border: 0.5px solid #EDEDED;
+}
+.iconsFooter {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 0 50px 0;
+    @media (max-width: 390px) {
+        margin: 16px 0 25px 0;
+    }
+}
+.icon {
+    width: 45px;
+    height: 45px;
+    @media (max-width: 390px) {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+
+
+/*large Devices, wide Screen */
+@media only screen and (max-width: 1200px){
+
+}
+/*Medium devices, Desktops*/
+@media only screen and (max-width: 992px){
+    .container {
+        width: 550px;
+        margin: 80px auto 0 ;
+    }
+    .searchPart {
+        gap: 40px;
+    }
+    .newTrack {
+        margin-left: 19px;
+    }
+    .newTrack p {
+        font-size: 18px;
+    }
+    .pagesPart {
+        margin-top: 20px;
+    }
+    .trackIcon {
+        width: 30px;
+        height: 9px;
+    }
+    .arrow {
+        width: 34px;
+        height: 46px;
+    }
+    .input {
+        width: 260px;
+        height: 39px;
+        font-size: 15px;
+        border-radius: 14px;
+    }
+    .searchIcon {
+        width: 20px;
+        height: 20px;
+        top: 22px;
+    }
+    .text {
+        font-size: 19px;
+    }
+    .song {
+        font-size: 20px;
+    }
+    .singer {
+        font-size: 17px;
+    }
+    .line {
+        width: 550px;
+    }
+    .lineFooter {
+        width: 550px;
+    }
+    .icons {
+        gap: 13px;
+        margin-top: 40px;
+    }
+    .iconList {
+        width: 25px;
+        height: 25px;
+    }
+    .icon {
+        width: 36px;
+        height: 36px;
+    }
+}
+/*Small Devices, Tablets*/
+@media only screen and (max-width: 768px){
+    .container {
+        margin: 70px auto 0;
+        width: 450px;
+    }
+    .searchPart {
+        gap: 28px;
+    }
+    .arrow {
+        width: 28px;
+        height: 35px;
+    }
+    .input {
+        height: 32px;
+        width: 230px;
+        font-size: 11px;
+        padding-left: 16px;
+    }
+    .searchIcon {
+        width: 17px;
+        height: 17px;
+        top: 18px;
+    }
+    .newTrack {
+        margin-left: 4px;
+    }
+    .newTrack p {
+        font-size: 15px;
+    }
+    .trackIcon {
+        width: 30px;
+        height: 8px;
+        margin-top: 16px;
+    }
+    .pagesPart {
+        margin-top: 15px;
+    }
+    .text {
+        font-size: 17px;
+    }
+    .wrapperAu {
+        margin-top: 10px;
+        margin-bottom: -8px;
+    }
+    .song {
+        font-size: 15px;
+    }
+    .singer {
+        font-size: 13px;
+        margin-top: -14px;
+    }
+    .icons {
+        gap: 10px;
+        margin-top: 33px;
+    }
+    .iconList {
+        width: 20px;
+        height: 20px;
+    }
+    .line {
+        width: 450px;
+    }
+    .iconsFooter {
+        margin: 30px 0 40px 0
+    }
+    .icon {
+        width: 28px;
+        height: 28px;
+    }
+    .lineFooter {
+        width: 450px;
+        margin-top: 30px;
+    }
+}
+/*Extra Small Devices, Phones*/
+@media only screen and (max-width: 480px){
+    .container {
+        width: 300px;
+        margin: 50px auto 0;
+    }
+    .searchPart {
+        gap: 17px;
+    }
+    .input {
+        height: 21px;
+        width: 145px;
+        font-size: 7px;
+        padding-left: 13px;
+        border-radius: 8px;
+    }
+    .arrow {
+        width: 17px;
+        height: 12px;
+    }
+    .searchIcon {
+        width: 10px;
+        height: 10px;
+        right: -10px;
+        top: 13px;
+    }
+    .newTrack {
+        margin-left: 10px;
+    }
+    .newTrack p {
+        font-size: 10px;
+        margin-top: 6px;
+    }
+    .trackIcon {
+        width: 20px;
+        margin-top: 10px;
+        height: 5px;
+    }
+    .text {
+        font-size: 11px;
+    }
+    .wrapperAu {
+        margin-top: 6px;
+
+    }
+    .song {
+        font-size: 11px;
+    }
+    .singer {
+        font-size: 9px;
+        margin-top: -10px;
+        margin-bottom: 12px;
+    }
+    .icon {
+        gap: 7px;
+        margin-top: 25px;
+    }
+    .icons {
+        gap: 7px;
+        margin-top: 22px;
+    }
+    .iconList {
+        width: 15px;
+        height: 15px;
+    }
+    .line {
+        width: 300px;
+    }
+    .iconsFooter {
+        margin: -10px 0 20px 0;
+    }
+    .icon {
+        width: 20px;
+        height: 20px;
+    }
+    .lineFooter {
+        width: 300px;
+        margin-top: 23px;
+    }
+}
+/*Custom, iPhone Retina*/
+@media only screen and (max-width: 320px){
+    .container {
+        width: 180px;
+        margin: 30px auto 0;
+    }
+    .pagesPart {
+        margin-top: 5px;
+    }
+    .searchPart {
+        gap: 9px;
+    }
+    .searchIcon {
+        width: 5px;
+        height: 5px;
+    }
+    .input {
+        width: 85px;
+        font-size: 3px;
+        border-radius: 4px;
+        height: 10px;
+    }
+    .arrow {
+        width: 10px;
+        height: 12px;
+    }
+    .newTrack {
+        margin-left: 7px;
+    }
+    .newTrack p {
+        font-size: 6px;
+        margin-top: 10px;
+    }
+    .trackIcon {
+        width: 10px;
+        margin-top: 11px;
+        height: 3px;
+    }
+    .text {
+        font-size: 6px;
+    }
+    .song {
+        font-size: 6px;
+    }
+    .singer {
+        font-size: 5px;
+        margin-top: -5px;
+        margin-bottom: 9px;
+    }
+    .iconList {
+        width: 9px;
+        height: 9px;
+    }
+    .icons {
+        gap: 4px;
+        margin-top: 10px;
+    }
+    .line {
+        width: 180px;
+    }
+    .iconsFooter {
+        margin: -20px 0 10px 0;
+    }
+    .icon {
+        width: 10px;
+        height: 10px;
+    }
+    .lineFooter {
+        width: 180px;
+        margin-top: 10px;
+    }
+}
