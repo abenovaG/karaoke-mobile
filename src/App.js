@@ -120,6 +120,36 @@ function App() {
                     <img className='iconList' src={star} alt='star'/>
                 </div>
             </div>
+            <div className='line'></div><div className='wrapperList'>
+                <div className='wrapperAu'>
+                    <h2 className='song'>Rolling in the deep</h2>
+                    <p className='singer'>Adele</p>
+                </div>
+                <div className='icons'>
+                    <img className='iconList' src={player} alt='player'/>
+                    <img className='iconList' src={star} alt='star'/>
+                </div>
+            </div>
+            <div className='line'></div><div className='wrapperList'>
+                <div className='wrapperAu'>
+                    <h2 className='song'>Rolling in the deep</h2>
+                    <p className='singer'>Adele</p>
+                </div>
+                <div className='icons'>
+                    <img className='iconList' src={player} alt='player'/>
+                    <img className='iconList' src={star} alt='star'/>
+                </div>
+            </div>
+            <div className='line'></div><div className='wrapperList'>
+                <div className='wrapperAu'>
+                    <h2 className='song'>Rolling in the deep</h2>
+                    <p className='singer'>Adele</p>
+                </div>
+                <div className='icons'>
+                    <img className='iconList' src={player} alt='player'/>
+                    <img className='iconList' src={star} alt='star'/>
+                </div>
+            </div>
             <div className='line'></div>
 
 
