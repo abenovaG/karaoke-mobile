@@ -308,7 +308,7 @@ p {
         top: 16px;
     }
     .newTrack {
-        margin-left: 6px;
+        margin-left: 5px;
         margin-top: -5px;
     }
     .newTrack p {
@@ -358,8 +358,8 @@ p {
         margin: -10px 0 20px 0;
     }
     .icon {
-        width: 20px;
-        height: 20px;
+        width: 26px;
+        height: 26px;
     }
     .lineFooter {
         width: 360px;
