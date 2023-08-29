@@ -216,7 +216,6 @@ p {
         height: 35px;
     }
     .input {
-        background-color: red;
         height: 32px;
         width: 230px;
         font-size: 11px;
@@ -281,32 +280,36 @@ p {
 /*Extra Small Devices, Phones*/
 @media only screen and (max-width: 480px){
     .container {
-        width: 300px;
-        margin-top: 25px;
-        margin-left: 12px;
+        width: 360px;
+        margin: 40px 15px 0 15px;
     }
     .searchPart {
-        gap: 17px;
+        margin-bottom: -7px;
+        gap: 14px;
+    }
+    .inputWrapper {
+        margin-top: -6px;
     }
     .input {
-        height: 21px;
-        width: 145px;
-        font-size: 7px;
+        height: 25px;
+        width: 207px;
+        font-size: 9px;
         padding-left: 13px;
-        border-radius: 8px;
+        border-radius: 9px;
     }
     .arrow {
-        width: 17px;
-        height: 12px;
+        width: 18px;
+        height: 14px;
     }
     .searchIcon {
-        width: 10px;
-        height: 10px;
-        right: -10px;
-        top: 13px;
+        width: 13px;
+        height: 13px;
+        right: -12px;
+        top: 14px;
     }
     .newTrack {
-        margin-left: 10px;
+        margin-left: 7px;
+        margin-top: -5px;
     }
     .newTrack p {
         font-size: 10px;
@@ -317,20 +320,23 @@ p {
         margin-top: 10px;
         height: 5px;
     }
+    .pagesPart {
+        margin-top: 12px;
+        margin-bottom: -4px;
+    }
     .text {
-        color: aqua;
-        font-size: 11px;
+        font-size: 12px;
     }
     .wrapperAu {
         margin-top: 6px;
 
     }
     .song {
-        font-size: 11px;
+        font-size: 15px;
     }
     .singer {
-        font-size: 9px;
-        margin-top: -10px;
+        font-size: 12px;
+        margin-top: -14px;
         margin-bottom: 12px;
     }
     .icon {
@@ -339,14 +345,14 @@ p {
     }
     .icons {
         gap: 7px;
-        margin-top: 22px;
+        margin-top: 28px;
     }
     .iconList {
-        width: 15px;
-        height: 15px;
+        width: 17px;
+        height: 17px;
     }
     .line {
-        width: 300px;
+        width: 360px;
     }
     .iconsFooter {
         margin: -10px 0 20px 0;
@@ -356,7 +362,7 @@ p {
         height: 20px;
     }
     .lineFooter {
-        width: 300px;
+        width: 360px;
         margin-top: 23px;
     }
 }
