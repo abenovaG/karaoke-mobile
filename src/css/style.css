@@ -308,7 +308,7 @@ p {
         top: 16px;
     }
     .newTrack {
-        margin-left: 7px;
+        margin-left: 6px;
         margin-top: -5px;
     }
     .newTrack p {
@@ -345,11 +345,11 @@ p {
     }
     .icons {
         gap: 7px;
-        margin-top: 28px;
+        margin-top: 26px;
     }
     .iconList {
-        width: 17px;
-        height: 17px;
+        width: 19px;
+        height: 19px;
     }
     .line {
         width: 360px;
