@@ -1,7 +1,6 @@
 .container {
     width: 700px;
-    margin-top: 55px;
-    margin-left: 45px;
+    margin: 100px auto 0;
 }
 .arrow {
     width: 36px;
@@ -139,14 +138,13 @@ p {
 @media only screen and (max-width: 992px){
     .container {
         width: 550px;
-        margin-top: 45px;
-        margin-left: 30px;
+        margin: 90px auto;
     }
     .searchPart {
-        gap: 40px;
+        gap: 20px;
     }
     .newTrack {
-        margin-left: 19px;
+        margin-left: 13px;
     }
     .newTrack p {
         font-size: 18px;
@@ -163,7 +161,7 @@ p {
         height: 46px;
     }
     .input {
-        width: 260px;
+        width: 300px;
         height: 39px;
         font-size: 15px;
         border-radius: 14px;
@@ -193,8 +191,8 @@ p {
         margin-top: 40px;
     }
     .iconList {
-        width: 25px;
-        height: 25px;
+        width: 27px;
+        height: 27px;
     }
     .icon {
         width: 36px;
@@ -204,9 +202,8 @@ p {
 /*Small Devices, Tablets*/
 @media only screen and (max-width: 768px){
     .container {
-        margin-top: 40px;
-        margin-left: 20px;
-        width: 450px;
+        margin: 80px 30px 0 40px;
+        width: 600px;
     }
     .searchPart {
         gap: 28px;
@@ -216,18 +213,20 @@ p {
         height: 35px;
     }
     .input {
-        height: 32px;
-        width: 230px;
-        font-size: 11px;
+        height: 38px;
+        width: 330px;
+        font-size: 13px;
         padding-left: 16px;
+        border-radius: 14px;
     }
     .searchIcon {
-        width: 17px;
-        height: 17px;
-        top: 18px;
+        width: 19px;
+        height: 19px;
+        top: 20px;
+        right: -8px;
     }
     .newTrack {
-        margin-left: 4px;
+        margin-left: 46px;
     }
     .newTrack p {
         font-size: 15px;
@@ -238,10 +237,10 @@ p {
         margin-top: 16px;
     }
     .pagesPart {
-        margin-top: 15px;
+        margin-top: 14px;
     }
     .text {
-        font-size: 17px;
+        font-size: 16px;
     }
     .wrapperAu {
         margin-top: 10px;
@@ -256,24 +255,24 @@ p {
     }
     .icons {
         gap: 10px;
-        margin-top: 33px;
+        margin-top: 31px;
     }
     .iconList {
-        width: 20px;
-        height: 20px;
+        width: 22px;
+        height: 22px;
     }
     .line {
-        width: 450px;
+        width: 600px;
     }
     .iconsFooter {
-        margin: 30px 0 40px 0
+        margin: 20px 0 30px 0
     }
     .icon {
-        width: 28px;
-        height: 28px;
+        width:  35px;
+        height: 35px;
     }
     .lineFooter {
-        width: 450px;
+        width: 600px;
         margin-top: 30px;
     }
 }
@@ -281,7 +280,7 @@ p {
 @media only screen and (max-width: 480px){
     .container {
         width: 360px;
-        margin: 45px 25px 0 25px;
+        margin: 50px 25px 0 25px;
     }
     .searchPart {
         margin-bottom: -7px;
@@ -291,7 +290,7 @@ p {
         margin-top: -8px;
     }
     .input {
-        height: 30px;
+        height: 28px;
         width: 207px;
         font-size: 10px;
         padding-left: 13px;
@@ -302,17 +301,17 @@ p {
         height: 16px;
     }
     .searchIcon {
-        width: 15px;
-        height: 15px;
+        width: 14px;
+        height: 14px;
         right: -12px;
-        top: 16px;
+        top: 15px;
     }
     .newTrack {
-        margin-left: 3px;
+        margin-left: 1px;
         margin-top: -5px;
     }
     .newTrack p {
-        font-size: 11px;
+        font-size: 12px;
         margin-top: 6px;
     }
     .trackIcon {
@@ -322,7 +321,7 @@ p {
     }
     .pagesPart {
         margin-top: 12px;
-        margin-bottom: -4px;
+        margin-bottom: -2px;
     }
     .text {
         font-size: 13px;
@@ -358,8 +357,8 @@ p {
         margin: -10px 0 16px 0;
     }
     .icon {
-        width: 26px;
-        height: 26px;
+        width: 29px;
+        height: 29px;
     }
     .lineFooter {
         width: 360px;
@@ -376,61 +375,62 @@ p {
         margin-top: -2px;
     }
     .searchPart {
-        gap: 9px;
+        gap: 10px;
     }
     .searchIcon {
         width: 5px;
         height: 5px;
+        right: -13px;
+        top: 13px;
     }
     .inputWrapper {
         margin-top: -2px;
     }
     .input {
-        width: 126px;
-        /*width: 85px;*/
-        font-size: 3px;
+        width: 124px;
+        font-size: 4px;
         border-radius: 4px;
-        height: 10px;
+        height: 12px;
         padding-left: 5px;
     }
     .arrow {
-        width: 10px;
-        height: 21px;
+        width: 9px;
+        height: 22px;
     }
     .newTrack {
-        margin-left: 13px;
+        margin-left: 14px;
+        margin-top: 0;
     }
     .newTrack p {
-        color: red;
-        font-size: 6px;
-        margin-top: 8px;
+        font-size: 5px;
+        margin-top: 9px;
     }
     .trackIcon {
-        width: 10px;
+        width: 6px;
         margin-top: 9px;
-        height: 3px;
+        height: 2px;
     }
     .text {
-        font-size: 6px;
+        font-size: 5px;
     }
     .wrapperAu {
         margin-top: 3px;
     }
     .song {
-        font-size: 6px;
+        font-size: 5px;
     }
     .singer {
-        font-size: 5px;
+        font-size: 4px;
         margin-top: -5px;
         margin-bottom: 9px;
     }
     .iconList {
-        width: 9px;
-        height: 9px;
+        width: 8px;
+        height: 8px;
     }
     .icons {
         gap: 4px;
-        margin-top: 10px;
+        margin-top: 7px;
     }
     .line {
         width: 220px;
@@ -439,8 +439,8 @@ p {
         margin: -20px 0 10px 0;
     }
     .icon {
-        width: 10px;
-        height: 10px;
+        width: 12px;
+        height: 12px;
     }
     .lineFooter {
         width: 220px;
