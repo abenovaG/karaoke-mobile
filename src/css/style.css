@@ -362,9 +362,8 @@ p {
 @media only screen and (max-width: 320px){
     .container {
         width: 180px;
-        margin-top: 10px;
-        margin-left: 7px;
-        margin-right: 0;
+        margin-top: 20px;
+        margin-left: 10px;
     }
     .pagesPart {
         margin-top: -2px;
@@ -391,7 +390,7 @@ p {
         height: 21px;
     }
     .newTrack {
-        margin-left: 5px;
+        margin-left: 13px;
     }
     .newTrack p {
         font-size: 6px;
