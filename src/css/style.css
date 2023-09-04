@@ -97,7 +97,7 @@ p {
     font-size: 23px;
     font-weight: 400;
     color: #1C274C;
-    margin-top: -5px;
+    margin-top: 1px;
 }
 .icons {
     display: flex;
@@ -180,7 +180,7 @@ p {
     }
     .singer {
         font-size: 17px;
-        margin-top: -3px;
+        margin-top: 1px;
     }
     .line {
         width: 550px;
@@ -253,7 +253,7 @@ p {
     }
     .singer {
         font-size: 13px;
-        margin-top: -3px;
+        margin-top: -2px;
     }
     .icons {
         gap: 10px;
@@ -338,7 +338,7 @@ p {
     }
     .singer {
         font-size: 11px;
-        /*margin-top: -14px;*/
+        margin-top: 1px;
         margin-bottom: 12px;
     }
     .icon {
