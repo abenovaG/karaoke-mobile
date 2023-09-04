@@ -1,6 +1,6 @@
 .container {
     width: 700px;
-    margin: 100px auto 0;
+    margin: 50px auto 0;
 }
 .arrow {
     width: 36px;
@@ -139,7 +139,7 @@ p {
 @media only screen and (max-width: 992px){
     .container {
         width: 550px;
-        margin: 90px auto;
+        margin: 40px auto;
     }
     .searchPart {
         gap: 20px;
@@ -204,7 +204,7 @@ p {
 /*Small Devices, Tablets*/
 @media only screen and (max-width: 768px){
     .container {
-        margin: 80px 30px 0 40px;
+        margin: 40px 30px 0 40px;
         width: 600px;
     }
     .searchPart {
@@ -283,7 +283,7 @@ p {
 @media only screen and (max-width: 480px){
     .container {
         width: 360px;
-        margin: 50px 25px 0 25px;
+        margin: 35px 25px 0 25px;
     }
     .searchPart {
         margin-bottom: -7px;
@@ -372,7 +372,7 @@ p {
 @media only screen and (max-width: 320px){
     .container {
         width: 220px;
-        margin: 20px 10px 0 10px;
+        margin: 5px 10px 0 10px;
     }
     .pagesPart {
         margin-top: -2px;
