@@ -1,5 +1,6 @@
+import 'normalize.css'
+import './css/reset.css'
 import './css/style.css'
-import styles from "./components/Header/header.module.css";
 import arrow from "./assets/images/Header/arrow.svg";
 import search from "./assets/images/Header/search.svg";
 import bottomArrow from "./assets/images/Header/bottomArrow.svg";
