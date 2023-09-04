@@ -1,5 +1,4 @@
 import 'normalize.css'
-import './css/reset.css'
 import './css/style.css'
 import arrow from "./assets/images/Header/arrow.svg";
 import search from "./assets/images/Header/search.svg";
